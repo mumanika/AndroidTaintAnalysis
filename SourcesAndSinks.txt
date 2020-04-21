@@ -1,0 +1,231 @@
+Application name: com.live.wea.widget.channel-26.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |   89  |
+|    ICC Sinks     |   0   |
+| Callback Sources |   0   |
+|   ICC Sources    |   2   |
+|   API Sources    |   5   |
++------------------+-------+
+
+Application name: com.babbel.mobile.android.es-20260099.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |   82  |
+|    ICC Sinks     |   2   |
+| Callback Sources |   2   |
+|   ICC Sources    |   45  |
+|   API Sources    |   19  |
++------------------+-------+
+
+Application name: com.microsoft.rdc.android-83.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |   98  |
+|    ICC Sinks     |   8   |
+| Callback Sources |   21  |
+|   ICC Sources    |   19  |
+|   API Sources    |   4   |
++------------------+-------+
+
+Application name: com.tennumbers.weatherapp-164.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |  353  |
+|    ICC Sinks     |   12  |
+| Callback Sources |   19  |
+|   ICC Sources    |   22  |
+|   API Sources    |   0   |
++------------------+-------+
+
+Application name: com.oprah.owntve-1553721775.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |  914  |
+|    ICC Sinks     |   7   |
+| Callback Sources |   0   |
+|   ICC Sources    |   20  |
+|   API Sources    |   13  |
++------------------+-------+
+
+Application name: co.zodiacmatch.freedating-150000.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |   0   |
+|    ICC Sinks     |   1   |
+| Callback Sources |   0   |
+|   ICC Sources    |   2   |
+|   API Sources    |   0   |
++------------------+-------+
+
+Application name: com.facebook.lite-156222754.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |   0   |
+|    ICC Sinks     |   0   |
+| Callback Sources |   0   |
+|   ICC Sources    |   0   |
+|   API Sources    |   0   |
++------------------+-------+
+
+Application name: com.scripps.android.foodnetwork-456814.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |  464  |
+|    ICC Sinks     |   9   |
+| Callback Sources |   7   |
+|   ICC Sources    |   22  |
+|   API Sources    |   0   |
++------------------+-------+
+
+Application name: com.comcast.hsf-713.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |  1798 |
+|    ICC Sinks     |   41  |
+| Callback Sources |   3   |
+|   ICC Sources    |  125  |
+|   API Sources    |   30  |
++------------------+-------+
+
+Application name: com.mediquo.main-106599.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |   2   |
+|    ICC Sinks     |   0   |
+| Callback Sources |   0   |
+|   ICC Sources    |   1   |
+|   API Sources    |   0   |
++------------------+-------+
+
+Application name: com.league.theleague-376.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |  203  |
+|    ICC Sinks     |   7   |
+| Callback Sources |   11  |
+|   ICC Sources    |  154  |
+|   API Sources    |   4   |
++------------------+-------+
+
+Application name: com.djonique.birdays-17.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |   46  |
+|    ICC Sinks     |   4   |
+| Callback Sources |   0   |
+|   ICC Sources    |   4   |
+|   API Sources    |   3   |
++------------------+-------+
+
+Application name: com.tropicalsmoothie.tropicalsmoothiecafe.android.app-50.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |   90  |
+|    ICC Sinks     |   9   |
+| Callback Sources |   1   |
+|   ICC Sources    |   84  |
+|   API Sources    |   30  |
++------------------+-------+
+
+Application name: com.bytestorm.artflow-2008085.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |  323  |
+|    ICC Sinks     |   2   |
+| Callback Sources |   5   |
+|   ICC Sources    |   13  |
+|   API Sources    |   3   |
++------------------+-------+
+
+Application name: com.lioncomdev.trichat-44.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |  884  |
+|    ICC Sinks     |   50  |
+| Callback Sources |   2   |
+|   ICC Sources    |   47  |
+|   API Sources    |   3   |
++------------------+-------+
+
+Application name: com.nice.accurate.weather-72.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |   52  |
+|    ICC Sinks     |   0   |
+| Callback Sources |   0   |
+|   ICC Sources    |   11  |
+|   API Sources    |   17  |
++------------------+-------+
+
+Application name: com.neenbo-313.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |   6   |
+|    ICC Sinks     |   0   |
+| Callback Sources |   0   |
+|   ICC Sources    |   2   |
+|   API Sources    |   0   |
++------------------+-------+
+
+Application name: com.musicstreaming.freemusic-27.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |  192  |
+|    ICC Sinks     |   51  |
+| Callback Sources |   8   |
+|   ICC Sources    |   11  |
+|   API Sources    |   36  |
++------------------+-------+
+
+Application name: tv.pluto.android-410400023.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |  269  |
+|    ICC Sinks     |   10  |
+| Callback Sources |   4   |
+|   ICC Sources    |   50  |
+|   API Sources    |   4   |
++------------------+-------+
+
+Application name: com.infokombinat.coloringanime-28.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |   68  |
+|    ICC Sinks     |   8   |
+| Callback Sources |   2   |
+|   ICC Sources    |   4   |
+|   API Sources    |   3   |
++------------------+-------+
+
+Application name: com.eyefilter.nightmode.bluelightfilter-70.apk
++------------------+-------+
+|   Source/Sink    | Count |
++------------------+-------+
+|    API Sinks     |  320  |
+|    ICC Sinks     |   28  |
+| Callback Sources |   0   |
+|   ICC Sources    |   20  |
+|   API Sources    |   31  |
++------------------+-------+
+
