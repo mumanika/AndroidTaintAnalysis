@@ -1,8 +1,11 @@
+#!/usr/bin/python3
+
 import os
 from collections import defaultdict
 from prettytable import PrettyTable
 import sys
 
+print(sys.argv)
 app_permissions=defaultdict(list)
 app_sinks_sources=defaultdict(dict)
 grouped_sinks=defaultdict(list)
