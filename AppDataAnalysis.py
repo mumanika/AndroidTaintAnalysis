@@ -18,7 +18,10 @@ basepath=None
 if len(sys.argv) == 2:
     basepath=sys.argv[1]
     if os.path.isdir(basepath):
-        pass
+        if not basepath[-1]=='/':
+            basepath+='/'
+        else:
+            pass
     else:
         print("Invalid Path entered", file=sys.stderr)
         sys.exit()
@@ -29,7 +32,7 @@ else:
 basedir=os.listdir(basepath)
 count=0
 for i in basedir:
-    if (not os.path.isfile(basepath+i)) and (i.startswith('co') or i.startswith('com') or i.startswith('tv')):
+    if (os.path.isdir(basepath+i)): #and (i.startswith('co') or i.startswith('com') or i.startswith('tv')):
         try:
             f=open(basepath+i+'/result/AppData.txt', 'r')
             count+=1
