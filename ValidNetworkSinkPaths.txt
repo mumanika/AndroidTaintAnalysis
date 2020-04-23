@@ -1,0 +1,2 @@
+Applications with valid network sinks: 
+com.musicstreaming.freemusic-27.apk

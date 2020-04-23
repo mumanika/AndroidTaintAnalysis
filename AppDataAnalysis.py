@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 #!/usr/bin/python3
 
 import os
@@ -5,15 +6,27 @@ from collections import defaultdict
 from prettytable import PrettyTable
 import sys
 
-print(sys.argv)
 app_permissions=defaultdict(list)
 app_sinks_sources=defaultdict(dict)
 grouped_sinks=defaultdict(list)
 grouped_source=defaultdict(list)
+app_valid_tainpath=[]
+app_network_sink=[]
 
-basepath='/Users/mumanika/Semester2/CNS/HW4/'
+
+basepath=None
+if len(sys.argv) == 2:
+    basepath=sys.argv[1]
+    if os.path.isdir(basepath):
+        pass
+    else:
+        print("Invalid Path entered", file=sys.stderr)
+        sys.exit()
+else:
+    print("Defaulting to base path /Users/mumanika/Semester2/CNS/HW4/ since no other path is given.", file=sys.stderr)
+    basepath='/Users/mumanika/Semester2/CNS/HW4/'
+
 basedir=os.listdir(basepath)
-
 count=0
 for i in basedir:
     if (not os.path.isfile(basepath+i)) and (i.startswith('co') or i.startswith('com') or i.startswith('tv')):
@@ -90,6 +103,24 @@ for i in basedir:
                 grouped_sinks['Network based Sink'].append(AppPerm[0])
                 break
 
+        # Checking if there is atleast 1 valid taint path
+        flag=False
+        for i in fileData.split('\n'):
+            if i.startswith('  Discovered taint paths are listed below:'):
+                flag=True
+            if i.startswith('    TaintPath:') and flag:
+                app_valid_tainpath.append(AppPerm[0])
+                break
+
+        # Checking if there is atleast one network based Sink.
+        flag = False
+        for i in fileData.split('\n'):
+            if i.startswith('  Discovered taint paths are listed below:'):
+                flag = True
+            if i.startswith('      Sink: <Descriptors: api_sink: Ljava/net/URL') and flag:
+                app_network_sink.append(AppPerm[0])
+                break
+
 
 
 with open("ApplicationPermissions.txt",'w+') as f:
@@ -120,5 +151,15 @@ with open("GroupedSinks.txt",'w+') as f:
         table.add_row([i,str(j).lstrip('[').rstrip(']')])
     f.write(table.get_string())
     f.write("\n\n")
+
+with open("ValidTaintPaths.txt",'w+') as f:
+    f.write("Applications with valid Taint Paths:\n")
+    for i in app_valid_tainpath:
+        f.write(str(i)+"\n")
+
+with open("ValidNetworkSinkPaths.txt",'w+') as f:
+    f.write("Applications with valid network sinks: \n")
+    for i in app_network_sink:
+        f.write(str(i) + "\n")
 
 

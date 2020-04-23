@@ -1,0 +1,13 @@
+Applications with valid Taint Paths:
+com.live.wea.widget.channel-26.apk
+com.babbel.mobile.android.es-20260099.apk
+com.tennumbers.weatherapp-164.apk
+com.scripps.android.foodnetwork-456814.apk
+com.comcast.hsf-713.apk
+com.league.theleague-376.apk
+com.bytestorm.artflow-2008085.apk
+com.lioncomdev.trichat-44.apk
+com.musicstreaming.freemusic-27.apk
+tv.pluto.android-410400023.apk
+com.infokombinat.coloringanime-28.apk
+com.eyefilter.nightmode.bluelightfilter-70.apk
